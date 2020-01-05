@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "author": "Giliam Verheide",
+  "name": "Inter Letter Spacing",
+  "description": "Sketch plugin that dynamically sets letter spacing of layers using the Inter font.",
+  "homepage": "https://github.com/giliamverheide/sketch-inter-letter-spacing",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Set Inter Letter Spacing",
+      "identifier": "set-letter-spacing",
+      "script": "./command.js",
+      "shortcut": "ctrl cmd shift t"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "title": "Inter Letter Spacing",
+    "items": [
+      "set-letter-spacing"
+    ]
+  }
+}
